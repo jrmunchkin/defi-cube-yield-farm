@@ -16,7 +16,7 @@ error CubeFarm__ExternalCallFailed();
 
 /**
  * @title CubeFarm
- * @author jrchain
+ * @author jrmunchkin
  * @notice This contract creates a simple yield farming defi that rewards users for staking up their differents token with a new ERC20 token CubeToken.
  * @dev The constructor takes the address of the CubeToken ERC20 and a rate.
  * The rate is used in the algorithm to calculate the rewards that should be distributed to the user.

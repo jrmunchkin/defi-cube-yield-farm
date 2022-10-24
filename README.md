@@ -1,4 +1,6 @@
-# Cube Farm contracts
+# Cube Farm contracts (SOLIDITY)
+
+**This is the SOLIDITY version of the repository, to switch to the VYPER version change to branch vyper** :point_up:
 
 This is a repository to work with and create a defi yield farm name Cube Farm in a python environment.
 This is a backend repository, it also work with a [frontend repository](https://github.com/jrchain/defi-cube-yield-farm-front-end). However you absolutly can use this repository without the frontend part.
@@ -7,7 +9,7 @@ This is a backend repository, it also work with a [frontend repository](https://
 
 There is 2 mains contracts:
 
-- The Cube Token : A ERC20 token with the specificity that only the address with Minter role can mint the token.
+- The Cube Token : An ERC20 token with the specificity that only the address with Minter role can mint the token.
 - The Cube Farm : The yield farming defi contract.
 
 The Cube Farm allow you to :

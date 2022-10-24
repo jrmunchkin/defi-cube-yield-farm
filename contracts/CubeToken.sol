@@ -9,8 +9,8 @@ error CubeToken__SenderIsNotTheMinter();
 
 /**
  * @title CubeToken
- * @author jrchain
- * @notice A simple ERC20 token.
+ * @author jrmunchkin
+ * @notice A simple ERC20 token with specific MINTER_ROLE for minter.
  */
 contract CubeToken is ERC20, AccessControl {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
