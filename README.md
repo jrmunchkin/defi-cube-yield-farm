@@ -1,9 +1,9 @@
 # Cube Farm contracts (SOLIDITY)
 
-**This is the SOLIDITY version of the repository, to switch to the VYPER version change to branch vyper** :point_up:
+**This is the VYPER version of the repository, you also can find the [VYPER version](https://github.com/jrmunchkin/defi-cube-yield-farm-vyper)**
 
 This is a repository to work with and create a defi yield farm name Cube Farm in a python environment.
-This is a backend repository, it also work with a [frontend repository](https://github.com/jrchain/defi-cube-yield-farm-front-end). However you absolutly can use this repository without the frontend part.
+This is a backend repository, it also work with a [frontend repository](https://github.com/jrmunchkin/defi-cube-yield-farm-front-end). However you absolutly can use this repository without the frontend part.
 
 ## Summary
 
@@ -44,7 +44,7 @@ Please install or have installed the following:
 2. Clone this repository
 
 ```
-git clone https://github.com/jrchain/defi-cube-yield-farm
+git clone https://github.com/jrmunchkin/defi-cube-yield-farm
 cd defi-cube-yield-farm
 ```
 
@@ -72,7 +72,7 @@ You can find your `PRIVATE_KEY` from your ethereum wallet like [metamask](https:
 
 You'll also want an [Etherscan API Key](https://etherscan.io/apis) to verify your smart contracts. Set it here `ETHERSCAN_TOKEN`.
 
-If you want to use it with the [frontend repository](https://github.com/jrchain/defi-cube-yield-farm-front-end), You also can clone it and set your frontend path `FRONT_END_FOLDER`
+If you want to use it with the [frontend repository](https://github.com/jrmunchkin/defi-cube-yield-farm-front-end), You also can clone it and set your frontend path `FRONT_END_FOLDER`
 
 You can add your environment variables to the `.env` file:
 
@@ -117,7 +117,7 @@ You also have a script to wrap some ETH to WETH (only for tesnet)
 brownie run scripts/get_weth.py --network goerli
 ```
 
-To update the front end repository with the newly deployed contracts (You need to pull the [frontend](https://github.com/jrchain/defi-cube-yield-farm-front-end) and set your `FRONT_END_FOLDER` first)
+To update the front end repository with the newly deployed contracts (You need to pull the [frontend](https://github.com/jrmunchkin/defi-cube-yield-farm-front-end) and set your `FRONT_END_FOLDER` first)
 
 ```bash
 brownie run scripts/update_frontend.py
